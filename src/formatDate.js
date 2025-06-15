@@ -7,6 +7,7 @@
  *
  * @returns {string}
  */
+
 function formatDate(date, [...fromFormat], [...toFormat]) {
   const parts = ['YY', 'YYYY', 'MM', 'DD'];
   const fromYearFormat = fromFormat.includes('YY') ? 'YY' : 'YYYY';
